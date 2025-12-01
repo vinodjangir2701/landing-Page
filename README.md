@@ -1,7 +1,7 @@
 # landing-Page
 Convert a Figma landing page design into a responsive webpage 
 
-1. Key Sections Covered
+<div> 1. Key Sections Covered <div/>
 ------------------------------------------------------------
 -> Header & Navigation: Includes logo and navigation buttons with sticky/fixed behavior on scroll.
 -> Hero Section: Large introductory banner with headline, subtext, and primary lead forms.
