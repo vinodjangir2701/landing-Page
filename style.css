@@ -271,6 +271,17 @@ main section:nth-child(1) {
   color: #10314c;
 }
 
+.first-left-side {
+  background-image: url("assest/liner.svg");
+  background-repeat: no-repeat;
+  background-position: 60px 105px;
+}
+@media screen and (max-width:1024px) {
+  .first-left-side {
+    background-image: none;
+  }
+}
+
 .h-btn {
   margin-top: 46px;
 }
@@ -1477,4 +1488,5 @@ footer div span {
     text-align: center;
     margin-top: 14px;
   }
+
 }
