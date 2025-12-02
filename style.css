@@ -322,7 +322,12 @@ main section:nth-child(1) {
   left: 50%;
   transform: translate(-55%, -50%); */
 }
-
+form input[type="submit"] {
+  color: #fff!important;
+  border: 2px solid red;
+  border: none!important;
+  outline: none!important;
+}
 .h-form {
   animation: upDown 1.2s ease-in-out infinite alternate;
 }
@@ -1490,3 +1495,4 @@ footer div span {
   }
 
 }
+
