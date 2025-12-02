@@ -56,23 +56,23 @@
             <span>Book Your Free Class Now!</span>
             <span>2 days of free demo classes without paying in advance!</span>
           </div>
-          <div class="h-form-body">
+          <form class="h-form-body" action="https://vinodjangir2701.github.io/landing-Page/" method="post" required>
             <div>
-              <label for="name">Name</label>
-              <input type="text" id="name" name="name" placeholder="Enter your name">
+              <label for="name">Name*</label>
+              <input type="text" id="name" name="name" placeholder="Enter your name" required>
             </div>
             <div>
-              <label for="email">Email</label>
-              <input type="email" id="email" name="email" placeholder="Enter your Email">
+              <label for="email">Email*</label>
+              <input type="email" id="email" name="email" placeholder="Enter your Email" required>
             </div>
             <div>
-              <label for="mnumber">Mobile Number</label>
-              <input type="text" id="mnumber" name="mnumber" placeholder="+91 ⏷ | Enter your mobile number">
+              <label for="mnumber">Mobile Number*</label>
+              <input type="tel" id="mnumber" name="mnumber" placeholder="+91 ⏷ | Enter your mobile number" min="10" max="10" required>
             </div>
             <div>
-              <input class="btn-sm-fil" type="button" value="Register Now">
+              <input class="btn-sm-fil" type="submit" value="Register Now">
             </div>
-          </div>
+          </from>
         </div>
       </div>
     </section>
@@ -467,3 +467,4 @@
 
 
 </html>
+
