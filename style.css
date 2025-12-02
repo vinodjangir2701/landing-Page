@@ -1307,7 +1307,7 @@ main section:nth-child(9)>div>div {
 .s10-faq-block {
   width: 770px;
   margin: auto;
-  padding: 20px 20px 10px 30px;
+  padding: 20px 20px 30px 30px;
   margin-bottom: 20px;
   border-radius: 8px;
   background-color: #fff;
@@ -1495,4 +1495,5 @@ footer div span {
   }
 
 }
+
 
